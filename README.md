@@ -228,7 +228,7 @@ AI-powered search engines understand natural language queries, offering relevant
 
 AI generates customized recommendations, emails, product descriptions and advertisements, increasing user engagement.
 
-New product design and prototyping:
+4.New product design and prototyping:
 
 AI-driven simulations help engineers, architects and designers test multiple product variations by helping create renditions before committing to physical production.
 
