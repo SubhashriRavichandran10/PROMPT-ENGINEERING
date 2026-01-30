@@ -246,6 +246,29 @@ Search engines enhanced with gen AI generate summaries, suggest related topics a
 
 # 4.Generative AI impact of scaling in LLMs.
 
+Scaling in Large Language Models refers to increasing model size (number of parameters), training data, and computational power. This scaling has a major impact on the performance and capabilities of Generative AI systems.
+
+Firstly, as LLMs scale, their language understanding and text generation quality improves. Larger models learn complex patterns, grammar, and context more effectively, resulting in more fluent, coherent, and human-like responses. They can understand long inputs and maintain context better than smaller models.
+
+Secondly, scaling leads to the emergence of new abilities, known as emergent properties. These abilities are not explicitly programmed but appear when the model becomes large enough. Examples include zero-shot learning, few-shot learning, basic reasoning, and problem solving. This makes large models more flexible across different tasks.
+
+Another important impact is better generalization. Scaled LLMs can perform well across multiple domains such as education, healthcare, coding, and creative writing without task-specific training. They can adapt to different languages, styles, and formats due to exposure to massive and diverse datasets.
+
+However, scaling also introduces challenges. Large models require huge computational resources, leading to high training costs and increased energy consumption. They may also amplify biases present in training data and pose risks such as misinformation generation, making safety and ethical considerations crucial.
+
+Scaling in LLMs plays a critical role in advancing generative AI by enhancing performance, generalization, and adaptability, while also introducing challenges related to cost, ethics, and sustainability.
+
+Scaling increases the number of parameters, improving model capacity.Larger models learn richer linguistic and contextual representations.
+
+Scaling enhances coherence and fluency in generated text.Large-scale models show emergent abilities at higher sizes.
+
+Scaling enables zero-shot and few-shot learning capabilities.Larger LLMs generalize better across tasks and domains.
+
+Scaling improves handling of long-context inputs.Large models reduce the need for task-specific fine-tuning.Scaling improves multilingual and cross-lingual performance.
+
+Larger models capture implicit grammar and semantic rules.
+
+Scaling improves performance on complex language tasks.
 Beyond financial analysis, there are several use cases of generative AI and LLMs in the banking and finance industry:
 
  Personalized trading assistance:
@@ -284,9 +307,14 @@ Large language models (LLMs) are a category of deep learning models trained on i
 
 LLMs work as giant statistical prediction machines that repeatedly predict the next word in a sequence. They learn patterns in their text and generate language that follows those patterns.
 
-LLMs represent a major leap in how humans interact with technology because they are the first AI system that can handle unstructured human language at scale, allowing for natural communication with machines. Where traditional search engines and and other programmed systems used algorithms to match keywords, LLMs capture deeper context, nuance and reasoning. LLMs, once trained, can adapt to many applications that involve interpreting text, like summarizing an article, debugging code or drafting a legal clause. When given agentic capabilities, LLMs can perform, with varying degrees of autonomy, various tasks that would otherwise be performed by humans.
+LLMs represent a major leap in how humans interact with technology because they are the first AI system that can handle unstructured human language at scale, allowing for natural communication with machines. Where traditional search engines and and other programmed systems used algorithms to match keywords, LLMs capture deeper context, nuance and reasoning.
+
+
+LLMs, once trained, can adapt to many applications that involve interpreting text, like summarizing an article, debugging code or drafting a legal clause. When given agentic capabilities, LLMs can perform, with varying degrees of autonomy, various tasks that would otherwise be performed by humans.
 
 LLMs are the culmination of decades of progress in natural language processing (NLP) and machine learning research, and their development is largely responsible for the explosion of artificial intelligence advancements across the late 2010s and 2020s. Popular LLMs have become household names, bringing generative AI to the forefront of the public interest. LLMs are also used widely in enterprises, with organizations investing heavily across numerous business functions and use cases.
+
+
 
 LLMs are easily accessible to the public through interfaces like Anthropic’s Claude, Open AI’s ChatGPT, Microsoft’s Copilot, Meta’s Llama models, and Google’s Gemini assistant, along with its BERT and PaLM models. IBM maintains a Granite model series on watsonx.ai, which has become the generative AI backbone for other IBM products like watsonx Assistant and watsonx Orchestrate. 
 
@@ -294,13 +322,20 @@ LLMs are easily accessible to the public through interfaces like Anthropic’s C
 
 Once trained, large language models work by responding to prompts by tokenizing the prompt, converting it into embeddings, and using its transformer to generate text one token at a time, calculating the probabilities for all potential next tokens, and outputting the most likely one. This process, called inference, is repeated until the output is complete. The model does not “know” the final answer in advance; it uses all the statistical relationships it learned in training to predict one token at a time, making its best guess at every step.
 
-The easiest and fastest way to get domain-specific knowledge from a general-purpose LLM is through prompt engineering, which does not require additional training. Users can modify prompts in all sorts of ways. For example, a prompt like “answer in the voice of a trained healthcare professional” could yield more relevant results (Note that LLMs are not recommended to be used for medical advice!).
+The easiest and fastest way to get domain-specific knowledge from a general-purpose LLM is through prompt engineering, which does not require additional training. Users can modify prompts in all sorts of ways. 
+
+
+For example, a prompt like “answer in the voice of a trained healthcare professional” could yield more relevant results (Note that LLMs are not recommended to be used for medical advice!).
 
 LLMs have other strategies to control their outputs, such as LLM temperature, which controls the randomness of text that is generated by LLMs during inference, or top-k/top-p sampling, which limits the set of tokens considered to the most likely ones, balancing creativity and coherence.
 
+
 The context window is the maximum number of tokens that a model can “see” and use at once when generating text. Early LLMs had short windows, but newer LLMs have hundreds of thousands of tokens in their context windows, enabling use cases like summarizing entire research papers, performing code assistance on large codebases and holding long continuous conversations with users.
 
-Retrieval augmented generation (RAG) is a method for connecting a pretrained model with external knowledge bases, enabling them to deliver more relevant responses at a higher level of accuracy. The retrieved information is passed into the model’s context window, so the model can use it when generating responses, without needing retraining. For example, by connecting an LLM to a dynamic weather service database, an LLM can retrieve information for a user about that day’s weather report.
+
+Retrieval augmented generation (RAG) is a method for connecting a pretrained model with external knowledge bases, enabling them to deliver more relevant responses at a higher level of accuracy.
+
+The retrieved information is passed into the model’s context window, so the model can use it when generating responses, without needing retraining. For example, by connecting an LLM to a dynamic weather service database, an LLM can retrieve information for a user about that day’s weather report.
 
  Large language model use cases 
 LLMs are redefining business processes and have proven their versatility across a myriad of use cases in many industries.
